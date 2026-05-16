@@ -7,7 +7,7 @@ Este glossário centraliza as definições de termos técnicos utilizados ao lon
 ## Termos em Português
 
 | Termo | Definição |
-|-------|----------|
+|-------|-----------|
 | Classe | Modelo ou molde que define a estrutura e o comportamento de objetos, contendo atributos e métodos. |
 | Objeto | Instância de uma classe, com estado (valores dos atributos) e comportamento (métodos). |
 | Herança | Mecanismo pelo qual uma classe (subclasse) adquire atributos e métodos de outra classe (superclasse). |
@@ -22,7 +22,7 @@ Este glossário centraliza as definições de termos técnicos utilizados ao lon
 | Genérico (Generic) | Mecanismo que permite parametrizar classes, interfaces e métodos com tipos, garantindo segurança de tipos em tempo de compilação. |
 | Anotação | Metadado associado a elementos do código-fonte (classes, métodos, campos) que pode ser processado em tempo de compilação ou execução. |
 | Tipo primitivo | Tipo de dado básico da linguagem (byte, short, int, long, float, double, char, boolean) que não é um objeto. |
-| Autoboxing | Conversão automática entre tipos primitivos e suas classes wrapper correspondentes (ex.: int → Integer). |
+| Autoboxing | Ver termo em inglês na tabela abaixo. |
 | Unboxing | Conversão automática de uma classe wrapper para o tipo primitivo correspondente (ex.: Integer → int). |
 | Sobrescrita (Override) | Redefinição de um método herdado em uma subclasse, mantendo a mesma assinatura. |
 | Sobrecarga (Overload) | Definição de múltiplos métodos com o mesmo nome mas assinaturas diferentes na mesma classe. |
@@ -33,8 +33,8 @@ Este glossário centraliza as definições de termos técnicos utilizados ao lon
 | Expressão lambda | Função anônima que pode ser passada como argumento ou atribuída a uma variável de interface funcional. |
 | Referência de método | Sintaxe abreviada para expressões lambda que invocam um método existente (ex.: `String::toUpperCase`). |
 | Enumeração (Enum) | Tipo especial de classe que define um conjunto fixo de constantes nomeadas. |
-| Wildcard | Caractere curinga (`?`) usado em generics para representar um tipo desconhecido. |
-| Type Erasure | Processo pelo qual o compilador Java remove informações de tipo genérico em tempo de compilação, substituindo por tipos brutos. |
+| Wildcard | Ver termo em inglês na tabela abaixo. |
+| Type Erasure | Ver termo em inglês na tabela abaixo. |
 | Inferência de tipo | Capacidade do compilador de deduzir automaticamente o tipo de uma variável ou expressão a partir do contexto. |
 | Bloco de inicialização | Bloco de código executado durante a criação de um objeto (instância) ou carregamento da classe (estático). |
 | Iterador | Objeto que permite percorrer os elementos de uma coleção sequencialmente. |
@@ -49,7 +49,7 @@ Este glossário centraliza as definições de termos técnicos utilizados ao lon
 Os termos abaixo são mantidos em inglês por não possuírem tradução consolidada em português na comunidade Java. Na primeira menção em cada tópico, devem aparecer em itálico com explicação em português.
 
 | Termo (EN) | Explicação (PT-BR) |
-|------------|--------------------|
+|------------|---------------------|
 | Records | Tipo especial de classe imutável introduzido no Java 16 que gera automaticamente construtor, getters, `equals()`, `hashCode()` e `toString()` a partir dos componentes declarados. |
 | Sealed Classes | Classes seladas introduzidas no Java 17 que restringem quais outras classes podem estendê-las, usando a cláusula `permits`. |
 | Virtual Threads | Threads leves gerenciadas pela JVM, introduzidas no Java 21, que permitem alta concorrência sem o custo de threads de sistema operacional. |
