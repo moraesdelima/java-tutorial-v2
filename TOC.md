@@ -116,7 +116,7 @@ Esta tabela define a ordem canônica de navegação do tutorial. Os links prev/n
 ## 11. Features Modernas — Java 9 a 21 (`modern/`)
 
 - [Módulos — Project Jigsaw (Java 9+)](./modern/modules.md)
-- [Melhorias na Stream API (Java 9–21)](./modern/stream-enhancements.md)
+- [Melhorias na Stream API (Java 9+)](./modern/stream-enhancements.md)
 - [Inferência de Tipo Local — var (Java 10+)](./modern/var.md)
 - [API de HTTP Client (Java 11+)](./modern/http-client.md)
 - [Switch Expressions (Java 14+)](./modern/switch-expressions.md)
